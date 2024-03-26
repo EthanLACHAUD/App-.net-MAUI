@@ -2,7 +2,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace MauiApp
+namespace App_rendu_LACHAUD_Ethan
 {
     internal class Program : MauiApplication
     {

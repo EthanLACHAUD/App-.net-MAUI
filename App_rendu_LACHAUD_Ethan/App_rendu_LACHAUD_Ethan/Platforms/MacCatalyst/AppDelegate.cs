@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace MauiApp
+namespace App_rendu_LACHAUD_Ethan
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

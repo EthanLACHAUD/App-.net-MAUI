@@ -1,4 +1,4 @@
-﻿namespace MauiApp
+﻿namespace App_rendu_LACHAUD_Ethan
 {
     public partial class MainPage : ContentPage
     {

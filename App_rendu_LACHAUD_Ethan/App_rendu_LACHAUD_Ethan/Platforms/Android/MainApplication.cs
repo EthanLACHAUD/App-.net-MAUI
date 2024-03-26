@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace MauiApp
+namespace App_rendu_LACHAUD_Ethan
 {
     [Application]
     public class MainApplication : MauiApplication
