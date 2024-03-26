@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace tp_note
+namespace MauiApp
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

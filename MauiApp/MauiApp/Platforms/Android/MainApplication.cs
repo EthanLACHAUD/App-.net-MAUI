@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace tp_note
+namespace MauiApp
 {
     [Application]
     public class MainApplication : MauiApplication

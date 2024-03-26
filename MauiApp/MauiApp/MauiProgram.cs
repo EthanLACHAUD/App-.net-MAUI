@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace tp_note
+namespace MauiApp
 {
     public static class MauiProgram
     {

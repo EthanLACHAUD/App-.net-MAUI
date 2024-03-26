@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace tp_note
+namespace MauiApp
 {
     public class Program
     {

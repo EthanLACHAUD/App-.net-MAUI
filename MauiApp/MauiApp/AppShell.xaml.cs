@@ -1,4 +1,4 @@
-﻿namespace tp_note
+﻿namespace MauiApp
 {
     public partial class AppShell : Shell
     {
