@@ -17,6 +17,8 @@ fonctionnalités différentes de votre choix. -->
                 </CarouselView.ItemTemplate>
             </CarouselView>
             
+            <Button x:Name="clickerButton" Text="0" Clicked="OnButtonClicked" />
+            
         </VerticalStackLayout>
         
     </ContentPage.Content>

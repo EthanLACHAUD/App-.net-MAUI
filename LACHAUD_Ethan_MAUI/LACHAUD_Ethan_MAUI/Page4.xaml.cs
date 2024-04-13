@@ -13,4 +13,12 @@ public partial class Page4 : ContentPage
         InitializeComponent();
         BindingContext = new Page4ViewModel();
     }
+    
+    private int clickCount = 0;
+
+    public void OnButtonClicked(object sender, EventArgs e)
+    {
+        clickCount++;
+        clickerButton.Text = clickCount.ToString();
+    } 
 }
