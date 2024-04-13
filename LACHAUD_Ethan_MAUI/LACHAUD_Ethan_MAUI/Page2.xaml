@@ -5,5 +5,21 @@
              x:Class="LACHAUD_Ethan_MAUI.Page2">
     <ContentPage.Content>
         
+        <StackLayout>
+            <Label Text="Page 2" FontSize="Large" HorizontalOptions="Center" />
+            <ListView x:Name="listView" ItemsSource="{Binding Items}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding Image}" HeightRequest="60" WidthRequest="60" />
+                                <Label Text="{Binding Name}" VerticalOptions="Center" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>
