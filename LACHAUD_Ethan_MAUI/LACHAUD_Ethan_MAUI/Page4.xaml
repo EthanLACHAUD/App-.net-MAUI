@@ -5,5 +5,19 @@
              x:Class="LACHAUD_Ethan_MAUI.Page4">
     <ContentPage.Content>
         
+        <!--La dernière page est une page libre mais OBLIGATOIRE qui doit contenir au moins 2
+fonctionnalités différentes de votre choix. -->
+
+        <VerticalStackLayout>
+            <CarouselView ItemsSource="{Binding Images}">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Image Source="{Binding .}" Aspect="AspectFill"/>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            
+        </VerticalStackLayout>
+        
     </ContentPage.Content>
 </ContentPage>
