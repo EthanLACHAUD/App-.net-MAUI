@@ -7,11 +7,6 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            <!--Titre principal et sous titre
-• Deux images l’une à coté de l’autre
-• Bouton (le clic sur ce bouton déclenchera une nouvelle page qui contiendra un gif, une fois
-le gif joué l’utilisateur pourra revenir à la page d’accueil)
-• Un composant de votre choix (carousel, vidéo, animation)-->
             <Label
                 Text="Bienvenue sur l'application de Ethan LACHAUD"
                 FontSize="Large"
@@ -26,7 +21,7 @@ le gif joué l’utilisateur pourra revenir à la page d’accueil)
                 <VerticalStackLayout>
                 <Image
                     x:Name="image1"
-                    Source="lapis.png"
+                    Source="lapin.png"
                     WidthRequest="150"
                     HeightRequest="150" />
                 </VerticalStackLayout> <VerticalStackLayout>
@@ -39,11 +34,21 @@ le gif joué l’utilisateur pourra revenir à la page d’accueil)
             </HorizontalStackLayout>
             <Image
                 x:Name="gif"
-                Source="gif.gif"
+                Source="bocchi.gif"
+                WidthRequest="150"
+                HeightRequest="150"
+                Aspect="AspectFit"
                 IsVisible="False"/>
             <Button
                 Text="Voir un gif"
                 Clicked="Button_Clicked" />
+            
+            
+            <Button
+                x:Name="rotation"
+                Text="Rotation"
+                Clicked="Button_Clicked_2" />
+            
             
         </VerticalStackLayout>
     </ScrollView>
